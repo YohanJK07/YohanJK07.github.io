@@ -1,0 +1,9 @@
+@keyframes color {
+  0%   {background-color: black;}
+  50% {background-color: yellow;}
+  100%{background-color: black;}
+}
+
+body {
+
+animation: color 45s linear infinite;
