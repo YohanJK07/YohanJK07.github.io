@@ -9,4 +9,3 @@ function playSound(id) { //play sound
         sound.play();
     }
 }
-playSound();
