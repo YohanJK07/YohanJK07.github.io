@@ -13,11 +13,20 @@
 var button = document.getElementById('Paino');
     var a = document.getElementById('pianoAudio');
 
+var button2 = document.getElementById('Guiter');
+    var b = document.getElementById('guitarAudio');
+
+var button3 = document.getElementById('Drom');
+    var c = document.getElementById('pianoAudio');
+
+
 function myPlay() {
     a.play();
 } ;
 
+
 document.getElementById('Paino').addEventListener("click", function() {
   a.play();
 });
+
 
