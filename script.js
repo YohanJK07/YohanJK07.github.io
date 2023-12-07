@@ -10,7 +10,7 @@
 //     }
 // }
 
-var button = document.getElementById('Paino');
+var button1 = document.getElementById('Paino');
     var a = document.getElementById('pianoAudio');
 
 var button2 = document.getElementById('Guiter');
