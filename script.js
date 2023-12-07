@@ -29,4 +29,13 @@ document.getElementById('Paino').addEventListener("click", function() {
   a.play();
 });
 
+document.getElementById('Guiter').addEventListener("click", function() {
+  a.play();
+});
+
+document.getElementById('Droms').addEventListener("click", function() {
+  a.play();
+});
+
+
 
