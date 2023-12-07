@@ -30,11 +30,11 @@ document.getElementById('Paino').addEventListener("click", function() {
 });
 
 document.getElementById('Guiter').addEventListener("click", function() {
-  a.play();
+  b.play();
 });
 
 document.getElementById('Droms').addEventListener("click", function() {
-  a.play();
+  c.play();
 });
 
 
