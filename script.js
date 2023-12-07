@@ -10,9 +10,8 @@
 //     }
 // }
 
-var button = document.getElementById('Paino'); // 
-
-    var a = document.getElementById('');
+var button = document.getElementById('Paino');
+    var a = document.getElementById('pianoAudio');
 
 function myPlay() {
     a.play();
