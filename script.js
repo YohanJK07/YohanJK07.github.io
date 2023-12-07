@@ -16,8 +16,8 @@ var button = document.getElementById('Paino');
 var button2 = document.getElementById('Guiter');
     var b = document.getElementById('guitarAudio');
 
-var button3 = document.getElementById('Drom');
-    var c = document.getElementById('pianoAudio');
+var button3 = document.getElementById('Droms');
+    var c = document.getElementById('drumAudio');
 
 
 function myPlay() {
