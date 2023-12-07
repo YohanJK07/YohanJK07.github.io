@@ -12,9 +12,12 @@
 
 var button = document.getElementById('Paino'); // 
 
-button.addEventListener('click', myPlay); 
+    var a = document.getElementById('');
 
 function myPlay() {
-    var a = document.getElementById('Paino');
     a.play();
 } ;
+
+button.addEventListener('click', myPlay); 
+
+
