@@ -17,6 +17,7 @@ function myPlay() {
     a.play();
 } ;
 
-button.addEventListener('click', myPlay); 
-
+document.getElementById('pianoAudio').addEventListener("click", function() {
+  a.play();
+});
 
