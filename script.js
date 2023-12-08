@@ -1,7 +1,3 @@
-//document.getElementById('woof').play()
-//http://www.findsounds.com/ISAPI/search.dll
-//playSound('woof');
-
 // function playSound(id) { //play sound
 //     if (document.getElementById(id)) {
 //         var sound = document.getElementById(id); //setup audio
