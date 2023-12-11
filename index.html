@@ -2,28 +2,79 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Music Theme Project</title>
+  <title>CodePen - A Pen by Daniel Babakhani</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<!-- <audio class = "centre" src="Piano Sound Effect.mp3" preload="auto" controls='controls'></audio> -->
-
-<audio  id="pianoAudio" src="Piano Sound Effect.mp3" preload="auto"></audio>
-<button class= "centre" id = "Paino" type = 'button'>Piano</button>
-
-  <audio  id="guitarAudio" src="Acoustic guitar sound effect free download.mp3" preload="auto"></audio>
-<button class= "centre" id = "Guiter" type = 'button'>Guitar</button>
-
-<audio id="drumAudio"src="drum sound effects.mp3" preload="auto"></audio>
-<button class= "centre" id = "Droms" type = 'button'>Drums</button>
-  
-  <style>.centre{
+<body>
+<!-- h1 element is the title and then i aligned the text in html so that it goes in the center-->
+  <div class="content">
+    <h1> Muscial Insturments </h1>
+     <!--centers text-->
+       <style>
+      h1{text-align: center;} 
+         
+      </style>
+    <p class="types">There are many different instruments in the world. Write some stuff about music</p>
+    <!--First instrument Piano -->
+    <section class="instruments">
+      <h3> Piano</h3>
+       <!--Explaination goes into this -->
+      <p class="font">
+The piano is a cool instrument with 88 keys that make different sounds. It's been around for a long time, and people use it to play all kinds of music, like classical, jazz, and pop. The piano has a nice style and is usually made of nice wood. It's used in big concerts and small homes, bringing music to life in a simple yet awesome way.</p>
+      
+      <img class="image" src="https://www.yamaha.com/us/pianos/images/homepageStill.jpg" alt="Piano" </img>
+     <!-- AUDIO -->    
+      <audio  id="pianoAudio" src="Piano Sound Effect.mp3" preload="auto"></audio>
+<button class= "centre" id = "Piano" type = 'button'>Piano</button>
+ <!--button style backup-->
+<style>.centre{
 display: block;
   margin-left: auto;
   margin-right: auto;
 }</style>
+
+    </section>
+ <!-- GUitar -->
+    <section class="GuitarInstruments">
+       <h3> Guitar</h3>
+      <p class="font">Write facts about Guitar</p>
+       <!--displays an image -->
+      <img class="image" src="https://images.guitarguitar.co.uk/cdn/small/160/753_gg_resoblog_nationabrown2.jpg" alt="Guitar" </img>
+     <!-- AUDIO -->    
+      <audio  id="guitarAudio" src="Acoustic guitar sound effect free download.mp3" preload="auto"></audio>
+<button class= "centre" id = "Guiter" type = 'button'>Guitar</button>
+ <!--button style center -->
+<style>.centre{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}</style>
+
+    
+    </section> <!--the section divides it into different part -->
+    <!-- drum -->
+    <section class="GuitarInstruments">
+       <h3> Drums</h3>
+      <p class="font">Write facts about Drums</p>
+       <!--IMage->
+      <img class="image" src="https://images.squarespace-cdn.com/content/v1/56feaff04c2f85630c326f8d/1559326280262-QBXXL4DXNPXKZN5Y1CHP/WalnutPlyKit_NatMatteBrass_Soundpure.jpg" alt="Drums" </img>
+     <!-- AUDIO -->    
+     <audio id="drumAudio"src="drum sound effects.mp3" preload="auto"></audio>
+<button class= "centre" id = "Droms" type = 'button'>Drums</button>
+
+<style>.centre{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}</style>
+
+    
+    </section>
+  </div>
+</body>
 <!-- partial -->
   <script  src="./script.js"></script>
 

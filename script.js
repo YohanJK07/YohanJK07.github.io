@@ -1,12 +1,4 @@
-// function playSound(id) { //play sound
-//     if (document.getElementById(id)) {
-//         var sound = document.getElementById(id); //setup audio
-//         sound.currentTime = 0; //reset position of playback to zero  //sound.load();
-//         sound.play();
-//     }
-// }
-
-var button1 = document.getElementById('Paino');
+var button1 = document.getElementById('Piano');
     var a = document.getElementById('pianoAudio');
 
 var button2 = document.getElementById('Guiter');
@@ -21,7 +13,7 @@ function myPlay() {
 } ;
 
 
-document.getElementById('Paino').addEventListener("click", function() {
+document.getElementById('Piano').addEventListener("click", function() {
   a.play();
 });
 
@@ -32,6 +24,3 @@ document.getElementById('Guiter').addEventListener("click", function() {
 document.getElementById('Droms').addEventListener("click", function() {
   c.play();
 });
-
-
-
