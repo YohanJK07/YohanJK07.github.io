@@ -11,21 +11,22 @@ var button3 = document.getElementById('Droms');
     var c = document.getElementById('drumAudio');
 
 
+//Function that works piano button
 function myPlay() {
     a.play();
 } ;
 
-//Piano button
+//Piano button code
 document.getElementById('Piano').addEventListener("click", function() {
   a.play();
 });
 
-//Guitar button
+//Guitar button code  
 document.getElementById('Guiter').addEventListener("click", function() {
   b.play();
 });
 
-//Drums button
+//Drums button code
 document.getElementById('Droms').addEventListener("click", function() {
   c.play();
 });
