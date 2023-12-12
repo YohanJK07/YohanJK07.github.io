@@ -1,4 +1,4 @@
-//Piano setup
+//Piano setup Yohan wrote the this code
 var button1 = document.getElementById('Piano');
     var a = document.getElementById('pianoAudio');
 
