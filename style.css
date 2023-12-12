@@ -12,6 +12,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* edits font describing instruments*/
+.font{
+  max-width: 400px;
+  padding: 10px;
+  text-align: center;
+  
+}
 .types{
   font-size: 17px;
   font-family: Impact, serif;
