@@ -3,7 +3,7 @@ import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControl
 
 console.clear();
 
-let song = new Audio('Last Train Home.mp3');
+let song = new Audio('LastTrainHome.mp3');
 
 song.play();
 
