@@ -3,6 +3,11 @@ import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControl
 
 console.clear();
 
+let song = new Audio('Last Train Home.mp3');
+
+song.play();
+
+
 // Defining key variables
 const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({
