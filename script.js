@@ -3,9 +3,7 @@ import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControl
 
 console.clear();
 
-let song = new Audio('LastTrainHome.mp3');
-
-song.play();
+var song = new Audio('LastTrainHome.mp3');
 
 
 // Defining key variables
@@ -148,6 +146,9 @@ function animate() {
   //   if(camera.position.x == cube.position.x) {
   //   console.log("Hi");
   // }
+
+
+song.play();
 
   var posX = Math.floor(camera.position.x);
   var posY = Math.floor(camera.position.y);
