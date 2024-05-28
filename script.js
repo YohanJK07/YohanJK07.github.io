@@ -177,7 +177,7 @@ function animate() {
         cube[i].position.x > posX - reinge &&
         cube[i].position.x < posX + reinge &&
         cube[i].position.z > posZ - reinge &&
-        cube[i].position.z < posZ + reinge
+        cube[i].position.z < posZ + (2+reinge) 
       ) {
         // isCollideU = true;
         
