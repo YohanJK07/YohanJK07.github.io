@@ -147,7 +147,6 @@ function animate() {
   // }
 
 
-
   var posX = Math.floor(camera.position.x);
   var posY = Math.floor(camera.position.y);
   var posZ = Math.floor(camera.position.z);
