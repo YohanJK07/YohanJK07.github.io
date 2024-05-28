@@ -3,7 +3,6 @@ import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControl
 
 console.clear();
 
-var song = new Audio('LastTrainHome.mp3');
 
 
 // Defining key variables
