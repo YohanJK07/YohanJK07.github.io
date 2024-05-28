@@ -167,7 +167,7 @@ function animate() {
     // console.log(kimeraX)
   }
 
-  const reinge = 2;
+  const reinge = 3;
   isCollideU = false;
   isCollideD = false;
 
@@ -177,7 +177,7 @@ function animate() {
         cube[i].position.x > posX - reinge &&
         cube[i].position.x < posX + reinge &&
         cube[i].position.z > posZ - reinge &&
-        cube[i].position.z < posZ + (10 + reinge) 
+        cube[i].position.z < posZ + reinge 
       ) {
         // isCollideU = true;
         
