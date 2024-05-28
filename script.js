@@ -167,7 +167,9 @@ function animate() {
     // console.log(kimeraX)
   }
 
-  const reinge = 3;
+  const reinge = 2;
+  const reinge2 = 3
+  
   isCollideU = false;
   isCollideD = false;
 
@@ -175,9 +177,9 @@ function animate() {
     for (let i = 0; i < cube.length; i++) {
       if (
         cube[i].position.x > posX - reinge &&
-        cube[i].position.x < posX + reinge &&
-        cube[i].position.z > posZ - reinge &&
-        cube[i].position.z < posZ + reinge 
+        cube[i].position.x < posX + reinge2 &&
+        cube[i].position.z > posZ - reinge2 &&
+        cube[i].position.z < posZ + reinge2 
       ) {
         // isCollideU = true;
         
@@ -198,9 +200,9 @@ function animate() {
     for (let i = 0; i < cube.length; i++) {
       if (
         cube[i].position.x > posX - reinge &&
-        cube[i].position.x < posX + reinge &&
-        cube[i].position.z > posZ - reinge &&
-        cube[i].position.z < posZ + reinge
+        cube[i].position.x < posX + reinge2 &&
+        cube[i].position.z > posZ - reinge2 &&
+        cube[i].position.z < posZ + reinge2
       ) {
         // isCollideD = true;
         camera.position.z += -1* kimeraZ / 180
