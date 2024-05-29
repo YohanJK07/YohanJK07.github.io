@@ -176,8 +176,8 @@ function animate() {
   if (up && !isCollideU) {
     for (let i = 0; i < cube.length; i++) {
       if (
-        cube[i].position.x > posX - reinge2 &&
-        cube[i].position.x < posX + reinge2 &&
+        cube[i].position.x > posX - reinge &&
+        cube[i].position.x < posX + reinge &&
         cube[i].position.z > posZ - reinge2 &&
         cube[i].position.z < posZ + reinge 
       ) {
@@ -198,8 +198,8 @@ function animate() {
   } else if (down && !isCollideD) {
     for (let i = 0; i < cube.length; i++) {
       if (
-        cube[i].position.x > posX - reinge2 &&
-        cube[i].position.x < posX + reinge2 &&
+        cube[i].position.x > posX - reinge &&
+        cube[i].position.x < posX + reinge &&
         cube[i].position.z > posZ - reinge2 &&
         cube[i].position.z < posZ + reinge
       ) {
