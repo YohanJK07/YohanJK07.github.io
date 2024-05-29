@@ -273,6 +273,12 @@ function animate() {
 
 animate();
 
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.2;
+  audio.play();
+});
+
 // var raycaster = new THREE.Raycaster();
 
 // // Define the origin and direction of the ray
