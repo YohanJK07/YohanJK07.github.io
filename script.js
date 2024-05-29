@@ -185,7 +185,6 @@ function animate() {
         
         camera.position.z -= -1* kimeraZ / 180
         camera.position.x -= -1* kimeraZ / 180
-       
       }
     }
 
