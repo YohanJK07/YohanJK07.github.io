@@ -3,7 +3,8 @@ import { OrbitControls } from "https://esm.sh/three/addons/controls/OrbitControl
 
 console.clear();
 
-
+var button1 = document.getElementById('sung');
+    var a = document.getElementById('songAudio');
 
 // Defining key variables
 const scene = new THREE.Scene();
@@ -174,6 +175,9 @@ function animate() {
   isCollideD = false;
 
   if (up && !isCollideU) {
+    
+      a.play();
+    
     for (let i = 0; i < cube.length; i++) {
       if (
         cube[i].position.x > posX - reinge &&
@@ -305,9 +309,8 @@ animate();
 //     break;
 
 
-var button1 = document.getElementById('sung');
-    var a = document.getElementById('songAudio');
 
-document.getElementById('sung').addEventListener("click", function() {
-  a.play();
-});
+
+// document.getElementById('sung').addEventListener("click", function() {
+
+// });
