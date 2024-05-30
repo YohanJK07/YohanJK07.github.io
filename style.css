@@ -11,5 +11,5 @@ canvas {
 }
 
 #sung {
-  position: fixed;
+  position: static;
 }
