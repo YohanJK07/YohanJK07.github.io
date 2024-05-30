@@ -176,8 +176,6 @@ function animate() {
 
   if (up && !isCollideU) {
     
-      a.play();
-    
     for (let i = 0; i < cube.length; i++) {
       if (
         cube[i].position.x > posX - reinge &&
@@ -311,6 +309,6 @@ animate();
 
 
 
-// document.getElementById('sung').addEventListener("click", function() {
-
-// });
+document.getElementById('sung').addEventListener("click", function() {
+      a.play();
+});
