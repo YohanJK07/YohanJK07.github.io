@@ -70,7 +70,7 @@ scene.background = new THREE.Color("black");
 camera.position.set(0, 1, 50);
 
 renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, window.innerHeight - 100);
 document.body.appendChild(renderer.domElement);
 
 window.addEventListener("resize", onWindowResize, false);
