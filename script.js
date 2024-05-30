@@ -303,3 +303,11 @@
 // // case 'ArrowDown': // Down arrow key
 // //     camera.rotateOnAxis(new THREE.Vector3(1, 0, 0), degInRad(-1));
 // //     break;
+
+
+var button1 = document.getElementById('sung');
+    var a = document.getElementById('songAudio');
+
+document.getElementById('sung').addEventListener("click", function() {
+  a.play();
+});
