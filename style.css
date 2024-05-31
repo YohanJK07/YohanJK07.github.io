@@ -4,12 +4,12 @@ body{
 }
 
 canvas {
-  position: absolute;
+  position: static;
   top: 0;
   left: 0;
   z-index: 0;
 }
 
 #sung {
-  position: static;
+  position: absolute;
 }
