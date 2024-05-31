@@ -135,6 +135,10 @@ function degInRad(deg) {
   return (deg * Math.PI) / 180;
 }
 
+
+var posX = Math.floor(camera.position.x);
+var posY = Math.floor(camera.position.y);
+var posZ = Math.floor(camera.position.z);
 let kimeraX = 0;
 let kimeraZ = 90;
 let speederZ = 1;
@@ -147,9 +151,6 @@ function animate() {
   //   console.log("Hi");
   // }
   
-  var posX = Math.floor(camera.position.x);
-  var posY = Math.floor(camera.position.y);
-  var posZ = Math.floor(camera.position.z);
 
   //   Camera controls
   if (right == true) {
