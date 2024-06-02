@@ -183,7 +183,7 @@ var posZ = Math.floor(camera.position.z);
   }
 
   const reinge = 2;
-  const reinge2 = 3;
+  const reinge2 = 6;
   
   isCollideU = false;
   isCollideD = false;
