@@ -194,7 +194,7 @@ var posZ = Math.floor(camera.position.z);
         cube[i].position.x > posX - reinge2 &&
         cube[i].position.x < posX + reinge2 &&
         cube[i].position.z > posZ - reinge2 &&
-        cube[i].position.z < posZ + reinge2 
+        cube[i].position.z < posZ + reinge 
       ) {
         // isCollideU = true;
         
@@ -214,7 +214,7 @@ var posZ = Math.floor(camera.position.z);
         cube[i].position.x > posX - reinge2 &&
         cube[i].position.x < posX + reinge2 &&
         cube[i].position.z > posZ - reinge2 &&
-        cube[i].position.z < posZ + reinge2
+        cube[i].position.z < posZ + reinge
       ) {
         // isCollideD = true;
         camera.position.z += -1* kimeraZ / 180
