@@ -117,7 +117,7 @@ function flour() {
 
 flour();
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 500; i++) {
   var randomColor =
     "#" + (((1 << 15) * Math.random()) | 0).toString(16).padStart(6, "0");
   let randy = Math.floor(100 * Math.random()) - Math.floor(100 * Math.random());
@@ -196,8 +196,7 @@ var posZ = Math.floor(camera.position.z);
         cube[i].position.z > posZ - reinge &&
         cube[i].position.z < posZ + reinge2 
       ) {
-        // isCollideU = true;
-        
+        // isCollideU = true;   
         camera.position.z -= -1* kimeraZ / 180
         camera.position.x += -1* kimeraZ / 180
       }
@@ -292,12 +291,8 @@ var possZ = Math.floor(camera.position.z);
         guy.position.x < possX + reingee &&
         guy.position.z > possZ - reingee &&
         guy.position.z < possZ + reingee
-      ) {
-      
-   
-                                                             
+      ) {                                                       
       guy.position.set(uon, 0, tew)
-    
        }
 
   renderer.render(scene, camera);
