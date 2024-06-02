@@ -135,6 +135,19 @@ function degInRad(deg) {
   return (deg * Math.PI) / 180;
 }
 
+let guy
+function foundU(){
+  let randle = Math.floor(100 * Math.random()) - Math.floor(100 * Math.random());
+    guy = new THREE.Mesh(
+    new THREE.BoxGeometry(1, 2, 1),
+    new THREE.MeshBasicMaterial({ color: 'yellow' }))
+     
+  guy.position.set(randle, 0, -Math.floor(700 * Math.random()));
+  scene.add(guy);
+}
+
+
+foundU()
 
 
 let kimeraX = 0;
@@ -269,6 +282,26 @@ var posZ = Math.floor(camera.position.z);
   //   if(kimeraX >= 360){
   //     kimeraX = 0
   //   }
+
+    var possX = Math.floor(camera.position.x);
+var possY = Math.floor(camera.position.y);
+var possZ = Math.floor(camera.position.z);
+     let uon = Math.floor(100 * Math.random()) - Math.floor(100 * Math.random())
+      let tew = -Math.floor(700 * Math.random())
+  const reingee = 2;
+  
+    if (
+        guy.position.x > possX - reingee &&
+        guy.position.x < possX + reingee &&
+        guy.position.z > possZ - reingee &&
+        guy.position.z < possZ + reingee
+      ) {
+      
+   
+                                                             
+      guy.position.set(uon, 0, tew)
+    
+       }
 
   renderer.render(scene, camera);
   requestAnimationFrame(animate);
