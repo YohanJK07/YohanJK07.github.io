@@ -192,8 +192,8 @@ var posZ = Math.floor(camera.position.z);
     
     for (let i = 0; i < cube.length; i++) {
       if (
-        cube[i].position.x > posX - reinge &&
-        cube[i].position.x < posX + reinge &&
+        cube[i].position.x > posX - reinge2 &&
+        cube[i].position.x < posX + reinge2 &&
         cube[i].position.z > posZ - reinge2 &&
         cube[i].position.z < posZ + reinge 
       ) {
@@ -214,8 +214,8 @@ var posZ = Math.floor(camera.position.z);
   } else if (down && !isCollideD) {
     for (let i = 0; i < cube.length; i++) {
       if (
-        cube[i].position.x > posX - reinge &&
-        cube[i].position.x < posX + reinge &&
+        cube[i].position.x > posX - reinge2 &&
+        cube[i].position.x < posX + reinge2 &&
         cube[i].position.z > posZ - reinge2 &&
         cube[i].position.z < posZ + reinge
       ) {
