@@ -199,7 +199,7 @@ var posZ = Math.floor(camera.position.z);
         // isCollideU = true;
         
         camera.position.z -= -1* kimeraZ / 180
-        camera.position.x -= -1* kimeraZ / 180
+        camera.position.x += -1* kimeraZ / 180
       }
     }
 
@@ -218,7 +218,7 @@ var posZ = Math.floor(camera.position.z);
       ) {
         // isCollideD = true;
         camera.position.z += -1* kimeraZ / 180
-        camera.position.x += -1* kimeraZ / 180
+        camera.position.x -= -1* kimeraZ / 180
       }
     }
 
