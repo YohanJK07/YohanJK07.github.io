@@ -183,7 +183,7 @@ var posZ = Math.floor(camera.position.z);
   }
 
   const reinge = 2;
-  const reinge2 = 8;
+  const reinge2 = 4;
   
   isCollideU = false;
   isCollideD = false;
@@ -207,9 +207,7 @@ var posZ = Math.floor(camera.position.z);
       camera.position.z -= kimeraZ / 180;
       camera.position.x -= kimeraX / 180;
     }
-    if (up) {
-      console.log(isCollideU);
-    }
+   
   } else if (down && !isCollideD) {
     for (let i = 0; i < cube.length; i++) {
       if (
